@@ -1,0 +1,306 @@
+body{
+    background-image: url(Black\ prism.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+     ;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 83%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+   padding-right: 230px;
+   background-color: rgba(0, 0, 0, 0.941);
+   
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background: transparent;
+    background-color: transparent;
+    padding: 10px 0;
+    color: white;
+    justify-self: center;
+    padding-bottom: 20px;
+    position: static;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 20px;
+    margin: 0 10px;
+    font-size: larger;
+    transition: background-color 0.2s;
+    border-radius: 15px;
+}
+
+nav a:hover {
+    color: rgba(206, 79, 79, 0.886);
+    transition: color 0.2s;
+    text-decoration: underline 3px;
+    text-underline-offset: 10px;  
+}
+
+
+
+.logo {
+    font-size: 25px;
+    color: rgb(247, 8, 8);
+    font-weight: 800;
+    text-decoration: none;
+    margin-right: 1px;
+
+}
+.yo {
+    margin-right: 210px;
+   
+}
+
+.head {
+    margin-top: 0px;
+    padding-top: 30px;
+    color: rgb(220, 149, 151); 
+    
+}
+
+body {
+    margin: 0px;
+}
+.Latestnews{
+    padding-left: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(0, 0, 0);
+   
+}
+
+.news{
+    display:inline-block;
+    margin: 20px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%
+}
+
+.news .newstext {
+    text-align: center;
+}
+
+.images1 {
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: transparent
+}
+
+.images1:hover {
+    border-color: azure;
+    transition: border 0.2s;
+    transform: scale(1.01);
+}
+
+
+.news2{
+    display:inline-block;
+    margin: 20px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%
+}
+.sii{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.sii:hover {
+    font-size: 22px;
+    transition: font-size 0.1s;
+    color: rgba(206, 79, 79, 0.886);
+    transition: color 0.2s;
+}
+.Apps{
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    color: rgb(220, 149, 151);
+    
+    font-size: 35px;
+}
+
+.noteimage{
+    border-radius: 10px;
+}
+.notebook{
+    display: flex;
+    background-color: black;
+}
+.notetitle{
+    font-size: 25px;
+    margin-left: 30px;
+    
+}
+.notetext{
+    display:flexbox
+}
+.buttons{
+    height: 30px;
+    width: 230px;
+    border-radius: 20px;
+    background-color:rgba(206, 79, 79, 0.886);
+    margin-left: 30px;
+    color: white;
+    border-width: 0px;
+}
+.buttons:hover{
+    transition: background-color 0.2s;
+    background-color:rgba(154, 64, 64, 0.884);
+
+}
+.rating{
+    font-size: 20px;
+    margin-left: 30px;
+     
+} 
+.company{
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.calculator{
+    margin-top: 20px;
+    display: flex;
+    background-color: black;
+}
+.calctext{
+    display: flexbox;
+}
+.vid1{
+    display: flex;
+    background-color: black;
+}
+.vidz{
+    border: 2px solid;
+    border-radius: 30px;
+    margin-left: 20px;
+    border-color: rgb(49, 43, 43);
+}
+.vidnote{
+    margin-left: 70px;
+    display: flexbox;
+}
+.vidhead{
+font-size: 40px;
+}
+.vidtext{
+    font-size: 20px;
+}
+.appsection{
+    margin-top: 0px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        scale:0.9
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+@keyframes fadein {
+    from{
+        opacity: 0;
+        scale: 1;
+
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+.kali{
+    position:absolute;
+}
+.box1{
+    border: 1px solid;
+    width: 1255px;
+    height: 580px;
+    border-color: transparent;
+}
+.arcane{
+    font-size: 50px;
+    margin-left: 30px;
+    margin-top: 220px;
+    position: absolute;
+    font-style:oblique;
+    font-weight: bold;
+}
+.watch{
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 100px;
+    width: 190px;
+    height: 60px;
+    border-radius: 27px;
+    border-width: 0px;
+    background-color: rgb(206, 79, 79);
+    color: white;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif
+}
+.watch:hover{
+    transition: background-color 0.2s;
+    background-color:rgb(154, 64, 64);
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+/* Add this to your existing CSS file */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    padding: 5px;
+    background-color: black;
+    border-radius: 20px;
+    position:absolute;
+    max-width: 90%;
+    max-height: 90%;
+    height: 500px;
+    width: 850px;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
